@@ -35,7 +35,6 @@ fun SideDishMenuScreen(
 }
 
 
-
 @Preview(
     showBackground = true,
     showSystemUi = true,
@@ -47,9 +46,9 @@ fun SideDishMenuPreviewDark() {
     LunchTrayTheme {
         SideDishMenuScreen(
             options = DataSource.sideDishMenuItems,
-            onCancelButtonClicked = {  },
-            onNextButtonClicked = {  },
-            onSelectionItemChanged = {  },
+            onCancelButtonClicked = { },
+            onNextButtonClicked = { },
+            onSelectionItemChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
                 .verticalScroll(
@@ -70,9 +69,9 @@ fun SideDishMenuPreviewLight() {
     LunchTrayTheme {
         SideDishMenuScreen(
             options = DataSource.sideDishMenuItems,
-            onCancelButtonClicked = {  },
-            onNextButtonClicked = {  },
-            onSelectionItemChanged = {  },
+            onCancelButtonClicked = { },
+            onNextButtonClicked = { },
+            onSelectionItemChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
                 .verticalScroll(
@@ -88,9 +87,9 @@ fun SideDishMenuPreviewNeutral() {
     LunchTrayTheme {
         SideDishMenuScreen(
             options = DataSource.sideDishMenuItems,
-            onCancelButtonClicked = {  },
-            onNextButtonClicked = {  },
-            onSelectionItemChanged = {  },
+            onCancelButtonClicked = { },
+            onNextButtonClicked = { },
+            onSelectionItemChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
                 .verticalScroll(
