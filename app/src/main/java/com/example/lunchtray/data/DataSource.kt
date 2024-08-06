@@ -50,6 +50,48 @@ object DataSource {
             name = "Coconut Rice",
             description = "Rice, coconut milk, lime, and sugar",
             price = 1.50,
+        ),
+
+        SideDishItem(
+            name = "Summer Salad",
+            description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
+            price = 2.50,
+        ),
+        SideDishItem(
+            name = "Butternut Squash Soup",
+            description = "Roasted butternut squash, roasted peppers, chili oil",
+            price = 3.00,
+        ),
+        SideDishItem(
+            name = "Spicy Potatoes",
+            description = "Marble potatoes, roasted, and fried in house spice blend",
+            price = 2.00,
+        ),
+        SideDishItem(
+            name = "Coconut Rice",
+            description = "Rice, coconut milk, lime, and sugar",
+            price = 1.50,
+        ),
+
+        SideDishItem(
+            name = "Summer Salad",
+            description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
+            price = 2.50,
+        ),
+        SideDishItem(
+            name = "Butternut Squash Soup",
+            description = "Roasted butternut squash, roasted peppers, chili oil",
+            price = 3.00,
+        ),
+        SideDishItem(
+            name = "Spicy Potatoes",
+            description = "Marble potatoes, roasted, and fried in house spice blend",
+            price = 2.00,
+        ),
+        SideDishItem(
+            name = "Coconut Rice",
+            description = "Rice, coconut milk, lime, and sugar",
+            price = 1.50,
         )
     )
 
