@@ -1,7 +1,6 @@
 package com.example.lunchtray.model
 
-import java.text.NumberFormat
-import java.util.Currency
+import com.example.lunchtray.ui.formatPrice
 
 sealed class MenuItem(
     open val name: String,
@@ -26,13 +25,13 @@ sealed class MenuItem(
         override val price: Double
     ) : MenuItem(name, description, price)
 
+    fun getFormattedPrice(): String = price.formatPrice()
 
-    companion object {
-        private val rupeeFormat:NumberFormat = NumberFormat.getCurrencyInstance().apply {
+    /*companion object {
+        private val rupeeFormat: NumberFormat = NumberFormat.getCurrencyInstance().apply {
             currency = Currency.getInstance("INR")
         }
     }
 
-    fun getFormattedPrice(): String = rupeeFormat.format(price)
-
+    fun getFormattedPrice2(): String = rupeeFormat.format(price)*/
 }

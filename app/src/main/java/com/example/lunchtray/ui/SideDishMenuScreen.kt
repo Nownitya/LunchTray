@@ -19,15 +19,16 @@ fun SideDishMenuScreen(
     options: List<SideDishItem>,
     onCancelButtonClicked: () -> Unit,
     onNextButtonClicked: () -> Unit,
-    onSelectionItemChanged: (SideDishItem) -> Unit,
+    onSelectionChanged: (SideDishItem) -> Unit,
     modifier: Modifier = Modifier
 ) {
     BaseMenuScreen(
         options = options,
         onCancelButtonClicked = onCancelButtonClicked,
         onNextButtonClicked = onNextButtonClicked,
+        /*onSelectionChanged = onSelectionChanged as (MenuItem) -> Unit,*/
         onSelectionChanged = { item ->
-            onSelectionItemChanged(item as SideDishItem)
+            onSelectionChanged(item as SideDishItem)
         },
         modifier = modifier
 
@@ -48,12 +49,10 @@ fun SideDishMenuPreviewDark() {
             options = DataSource.sideDishMenuItems,
             onCancelButtonClicked = { },
             onNextButtonClicked = { },
-            onSelectionItemChanged = { },
+            onSelectionChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
-                .verticalScroll(
-                    rememberScrollState()
-                )
+                .verticalScroll(rememberScrollState())
         )
     }
 }
@@ -71,7 +70,7 @@ fun SideDishMenuPreviewLight() {
             options = DataSource.sideDishMenuItems,
             onCancelButtonClicked = { },
             onNextButtonClicked = { },
-            onSelectionItemChanged = { },
+            onSelectionChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
                 .verticalScroll(
@@ -89,7 +88,7 @@ fun SideDishMenuPreviewNeutral() {
             options = DataSource.sideDishMenuItems,
             onCancelButtonClicked = { },
             onNextButtonClicked = { },
-            onSelectionItemChanged = { },
+            onSelectionChanged = { },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
                 .verticalScroll(

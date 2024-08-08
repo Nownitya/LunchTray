@@ -18,7 +18,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.lunchtray.R
 import com.example.lunchtray.ui.theme.LunchTrayTheme
-import kotlin.math.min
 
 @Composable
 fun StartOrderScreen(

@@ -52,7 +52,7 @@ object DataSource {
             price = 1.50,
         ),
 
-        SideDishItem(
+        /*SideDishItem(
             name = "Summer Salad",
             description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
             price = 2.50,
@@ -92,7 +92,7 @@ object DataSource {
             name = "Coconut Rice",
             description = "Rice, coconut milk, lime, and sugar",
             price = 1.50,
-        )
+        )*/
     )
 
     val accompanimentItem = listOf(

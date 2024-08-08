@@ -51,9 +51,7 @@ fun AccompanimentMenuPreviewDark() {
             onSelectionItemChanged = {  },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
-                .verticalScroll(
-                    rememberScrollState()
-                )
+                .verticalScroll(rememberScrollState())
         )
     }
 }
@@ -74,9 +72,7 @@ fun AccompanimentMenuPreviewLight() {
             onSelectionItemChanged = {  },
             modifier = Modifier
                 .padding(dimensionResource(id = R.dimen.padding_medium))
-                .verticalScroll(
-                    rememberScrollState()
-                )
+                .verticalScroll(rememberScrollState())
         )
     }
 }

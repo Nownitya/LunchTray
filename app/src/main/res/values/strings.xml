@@ -8,5 +8,9 @@
     <string name="start_order">Start Order</string>
     <string name="cancel">Cancel</string>
     <string name="next">Next</string>
-
+    <string name="order_summary">Order Summary</string>
+    <string name="subtotal">Subtotal %s</string>
+    <string name="tax">Tax %s</string>
+    <string name="total">Total %s</string>
+    <string name="submit">Submit</string>
 </resources>
